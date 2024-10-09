@@ -1,6 +1,15 @@
+@font-face {
+    font-family: Inter;
+    src: url("material/Inter.ttf");
+}
+
+* {
+    background-color: #fff;
+    font-family: Inter;
+}
+
 body {
     margin: 0;
-    background-color: blue;
 }
 
 /* NAV */
@@ -8,42 +17,35 @@ body {
     width: 100px;
     height: auto;
     display: block;
-    margin-left: 10px;
 
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    background-color: #cfe1b9;
-    padding: 15px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 13px;
 }
 
 .nav-button {
     text-decoration: none;
-    background-color: #718355;
-    padding: 15px;
+    padding: 10px;
     margin-right: 10px;
-    color: white;
+    color: black;
     border-radius: 15px;
 }
+
 
 .nav-button:hover {
     background-color: #219f89;
 }
 
-#nav-left {
-    display: flex;
+#nav-button-container {
     align-items: center;
-    flex-direction: row;
-    gap: 20px;
-}   
-
-#nav-right {
-    display: flex;  
-    flex-direction: row;
-    gap: 5px;
+    display: flex;
+    gap: 10px;
 }
 
 /*footer {

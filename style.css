@@ -24,7 +24,9 @@ body {
 }
 
 nav {
-    max-width: 1200px;
+    /* ensures that the nav bar is 1200px */
+    width: 1200px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +34,9 @@ nav {
     border-bottom: 1px solid #e0e0e0;
     font-size: 13px;
 
-    position: sticky; /* fix later */
+    /* makes nav stick to top */
+    top: 0;
+    position: sticky;
 }
 
 .nav-button {
@@ -57,7 +61,10 @@ content{
     max-width: 1000px;
 }
 
+
 footer {
+    border-top: 1px solid #e0e0e0;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     background-color: #cfe1b9;
@@ -75,6 +82,7 @@ footer {
 }
 
 @media (max-width: 600px) {
+
     /*footer*/
     footer{
         flex-direction: column;

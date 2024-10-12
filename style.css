@@ -23,6 +23,10 @@ body {
 
 }
 
+#hamburger{
+    display: none;
+}
+
 nav {
     /* ensures that the nav bar is 1200px */
     width: 1200px;
@@ -45,8 +49,8 @@ nav {
     margin-right: 10px;
     color: black;
     border-radius: 15px;
+    display: flex; /* ensures img doesnt become column*/
 }
-
 
 .nav-button:hover {
     background-color: #219f89;
@@ -57,35 +61,95 @@ nav {
     display: flex;
     gap: 10px;
 }
+
+/*content*/
 content{
     max-width: 1000px;
+    width: 100%;
+    
 }
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+}
+
+.hero img{
+    width: 400px;
+    object-fit: contain;
+    padding: 50px 20px;
+}
+
+.hero-info{
+    margin: auto;
+    width: 50%;
+}
 
 footer {
     border-top: 1px solid #e0e0e0;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #cfe1b9;
+    background-color: #ffffff;
+}
+#footer-socials{
+    padding: 50px;
+    margin-left: 40px;
+}
+
+#footer-brand{
+    width: 130px;
+}
+
+#socials img{
+    width: 20px;
+    object-fit: contain;
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 30px;
 }
 
 .footer-links-container{
     display: flex;
     flex-direction: row;
-   
 }
 
 .footer-link{
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
+/* fix later
+
+
+.footer-link a{
+    display: inline-block;
+}
+'
+*/
+
 @media (max-width: 600px) {
+    /*nav*/
+    #nav-button-container .nav-button{
+        display: none;
+    }
 
     /*footer*/
     footer{
         flex-direction: column;
     }
+
+    #hamburger{
+        width: 25px;
+        height: auto;
+        display: block;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    
 
 }

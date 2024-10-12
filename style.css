@@ -63,8 +63,9 @@ footer {
     background-color: #cfe1b9;
 }
 
-#footer-links-container{
+.footer-links-container{
     display: flex;
+    flex-direction: row;
    
 }
 
@@ -73,8 +74,10 @@ footer {
     flex-direction: column;
 }
 
-
-/* Responsive design for screen sizes 600px or less */
 @media (max-width: 600px) {
+    /*footer*/
+    footer{
+        flex-direction: column;
+    }
 
 }

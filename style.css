@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 0px 16px;
 }
 
 /* NAV */
@@ -28,9 +29,7 @@ body {
 }
 
 nav {
-    /* ensures that the nav bar is 1200px */
-    width: 1200px;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +62,7 @@ nav {
 }
 
 /*content*/
-content{
+.content{
     max-width: 1000px;
     width: 100%;
     
@@ -84,10 +83,17 @@ content{
 .hero-info{
     margin: auto;
     width: 50%;
+    margin-left: 200px;
 }
-
-footer {
+footer{
     border-top: 1px solid #e0e0e0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-content {
+
     width: 1200px;
     max-width: 100%;
     display: flex;
@@ -95,7 +101,7 @@ footer {
     background-color: #ffffff;
 }
 #footer-socials{
-    padding: 50px;
+    padding: 25px;
     margin-left: 40px;
 }
 
@@ -119,7 +125,7 @@ footer {
 .footer-link{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
 }
 
 /* fix later

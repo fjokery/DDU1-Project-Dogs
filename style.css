@@ -85,6 +85,13 @@ nav {
     width: 50%;
     margin-left: 200px;
 }
+
+/* support */
+#supporters-container{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+
 footer{
     border-top: 1px solid #e0e0e0;
     width: 100%;

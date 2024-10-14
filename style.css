@@ -105,6 +105,16 @@ nav {
     height: 24px;
 }
 
+.info-container {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.info-text-container {
+    width: 50%;
+}
+
 footer {
     border-top: 1px solid #e0e0e0;
     width: 100%;
@@ -178,6 +188,11 @@ footer {
         padding: 10px;
         margin-right: 10px;
         border-radius: 15px;
+    }
+
+    .info-text-container {
+        width: 100%;
+        text-align: center;
     }
 
 

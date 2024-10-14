@@ -78,6 +78,7 @@ nav {
 .hero img {
     flex-grow: 1;
     width: 100%;
+    object-fit: contain;
 }
 
 .hero-info {
@@ -113,6 +114,41 @@ nav {
 
 .info-text-container {
     width: 50%;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-container img {
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.center-container h1 {
+    text-align: center;
+}
+
+.person-container {
+    display: flex;
+}
+
+.person-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.person-text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-text-column p {
+    margin: 0;
 }
 
 footer {
@@ -174,6 +210,11 @@ footer {
     /*nav*/
     #nav-button-container .nav-button {
         display: none;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
     }
 
     /*footer*/

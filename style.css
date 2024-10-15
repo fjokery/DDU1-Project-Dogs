@@ -183,6 +183,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 50px 0px;
 
 }
 
@@ -197,7 +198,7 @@ footer {
 
 #footer-socials {
     padding: 25px;
-    margin-left: 40px;
+    width: 25%;
 }
 
 #footer-brand {
@@ -213,14 +214,15 @@ footer {
 }
 
 .footer-links-container {
+    flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .footer-link {
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
 
 /* fix later
@@ -245,7 +247,7 @@ footer {
     }
 
     /*footer*/
-    footer {
+    .footer-content {
         flex-direction: column;
     }
 

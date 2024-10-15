@@ -18,7 +18,11 @@ body {
 }
 
 /* divider*/
-.divi
+.divider-horizontal {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 1px;
+}
 
 /* NAV */
 #brand {
@@ -168,8 +172,6 @@ nav {
 .feature {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e0e0e0;
-
 }
 
 .feature img {
@@ -211,8 +213,8 @@ footer {
 }
 
 .footer-links-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .footer-link {
@@ -245,6 +247,11 @@ footer {
     /*footer*/
     footer {
         flex-direction: column;
+    }
+
+    .footer-links-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     #hamburger {

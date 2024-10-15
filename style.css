@@ -4,7 +4,7 @@
 }
 
 * {
-    background-color: #fff;
+
     font-family: Inter;
 }
 
@@ -14,7 +14,11 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 0px 16px;
+    background-color: #fff;
 }
+
+/* divider*/
+.divi
 
 /* NAV */
 #brand {
@@ -36,6 +40,7 @@ nav {
     padding: 10px;
     border-bottom: 1px solid #e0e0e0;
     font-size: 15px;
+    background-color: #fff;
 
     /* makes nav stick to top */
     top: 0;
@@ -106,7 +111,7 @@ nav {
     height: 24px;
 }
 
-.info-container {
+.column-container {
     display: flex;
     margin-top: 80px;
     flex-direction: column;
@@ -149,6 +154,26 @@ nav {
 
 .person-text-column p {
     margin: 0;
+}
+
+
+.features-container {
+    width: 600px;
+    max-width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    background-color: #219f89;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.feature img {
+    height: 16px;
 }
 
 footer {
@@ -235,6 +260,5 @@ footer {
         width: 100%;
         text-align: center;
     }
-
 
 }

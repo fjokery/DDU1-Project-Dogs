@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0px 16px;
+    padding: 0px 32px;
     background-color: #fff;
 }
 
@@ -193,11 +193,12 @@ footer {
     max-width: 100%;
     display: flex;
     justify-content: center;
+    gap: 40px;
     background-color: #ffffff;
 }
 
 #footer-socials {
-    padding: 25px;
+    padding: 25px 0px;
     width: 25%;
 }
 
@@ -249,6 +250,16 @@ footer {
     /*footer*/
     .footer-content {
         flex-direction: column;
+        gap: 0px;
+    }
+
+    #footer-socials {
+        padding: 25px 0px 0px 0px;
+        width: 100%;
+    }
+
+    #socials img {
+        margin-bottom: 0px;
     }
 
     .footer-links-container {

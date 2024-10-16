@@ -32,6 +32,12 @@ body {
     /* margin collapse but in a good way*/
 }
 
+.divider-vertical {
+    background-color: #e5e5e5;
+    width: 1px;
+    height: 100%;
+}
+
 /* NAV */
 #brand {
     width: 100px;
@@ -194,6 +200,10 @@ nav {
 
 #barky-for-teams-font {
     color: #050505;
+}
+
+#teams-container {
+    display: flex;
 }
 
 footer {

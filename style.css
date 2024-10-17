@@ -197,7 +197,7 @@ nav {
     color: #050505;
 }
 
-.teams-container {
+.divided-rows {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -227,6 +227,10 @@ nav {
 
 .percentage {
     width: 100%;
+}
+
+.try-barky {
+    margin: 60px 0px;
 }
 
 footer {
@@ -296,6 +300,14 @@ footer {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    .divided-rows, .badges {
+        flex-direction: column;
+    }
+
+    .divided-rows .divider-vertical {
+        display: none;
     }
 
     /*footer*/

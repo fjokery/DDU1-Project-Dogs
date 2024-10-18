@@ -51,6 +51,10 @@ body {
     display: none;
 }
 
+#hamburger:hover {
+    background-color: #7f7f7f;
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -71,19 +75,34 @@ nav {
     padding: 10px;
     margin-right: 10px;
     color: black;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex;
     /* ensures img doesnt become column*/
+    text-align: center;
+}
+
+.nav-caret {
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .nav-button:hover {
-    background-color: #219f89;
+    background-color: #f4f4f4;
 }
 
 #nav-button-container {
     align-items: center;
     display: flex;
     gap: 10px;
+}
+
+#nav-divider {
+    height: 20px;
+}
+
+#get-free {
+    background-color: #050505;
+    color: white;
 }
 
 /*content*/
@@ -111,6 +130,15 @@ nav {
 
 .hero-info h1 {
     font-size: 53px;
+    margin: 0;
+}
+
+.hero-info a {
+    background-color: #050505;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 /* support */
@@ -302,11 +330,16 @@ footer {
         text-align: center;
     }
 
-    .divided-rows, .badges {
+    .divided-rows,
+    .badges {
         flex-direction: column;
     }
 
     .divided-rows .divider-vertical {
+        display: none;
+    }
+
+    .divider-vertical {
         display: none;
     }
 

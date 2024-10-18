@@ -19,8 +19,16 @@ body {
     background-color: #fff;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 650;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 
@@ -153,7 +161,7 @@ nav {
 
 .hero-info p {
     font-size: 18px;
-    color: #999999;
+    color: #7f7f7f;
     margin-bottom: 40px;
 }
 
@@ -184,6 +192,17 @@ nav {
     align-self: flex-start;
 }
 
+.info-text-container h2 {
+    margin: 0;
+}
+
+.info-text-container p {
+    font-size: 16px;
+    color: #7f7f7f;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
 .preview-img {
     width: 100%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -192,6 +211,7 @@ nav {
 
 .center-text {
     text-align: center;
+    color: #999999;
 }
 
 .person-container {

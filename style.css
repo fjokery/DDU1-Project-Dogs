@@ -100,12 +100,13 @@ nav {
     height: 20px;
 }
 
-#get-free {
+.get-free {
     background-color: #050505;
     color: white;
+    padding: 5px 10px;
 }
 
-#get-free:hover {
+.get-free:hover {
     background-color: #353535;
 }
 
@@ -133,7 +134,7 @@ nav {
 }
 
 .hero-info h1 {
-    font-size: 53px;
+    font-size: 45px;
     margin: 0;
 }
 

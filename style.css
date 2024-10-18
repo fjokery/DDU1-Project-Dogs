@@ -19,6 +19,10 @@ body {
     background-color: #fff;
 }
 
+h1 {
+    font-weight: 650;
+}
+
 
 /* divider*/
 .divider-horizontal {
@@ -100,10 +104,20 @@ nav {
     height: 20px;
 }
 
+#nav-get-free {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 450;
+}
+
 .get-free {
     background-color: #050505;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 550;
+    text-decoration: none;
 }
 
 .get-free:hover {
@@ -130,7 +144,6 @@ nav {
 
 .hero-info {
     width: 100%;
-    font-size: 18px;
 }
 
 .hero-info h1 {
@@ -138,12 +151,10 @@ nav {
     margin: 0;
 }
 
-.hero-info a {
-    background-color: #050505;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
+.hero-info p {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 40px;
 }
 
 /* support */

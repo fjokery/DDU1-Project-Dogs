@@ -52,7 +52,7 @@ body {
 }
 
 #hamburger:hover {
-    background-color: #7f7f7f;
+    background-color: #e5e5e5;
 }
 
 nav {
@@ -63,6 +63,7 @@ nav {
     padding: 10px;
     border-bottom: 1px solid #e5e5e5;
     font-size: 15px;
+    font-weight: 450;
     background-color: #fff;
 
     /* makes nav stick to top */
@@ -72,9 +73,8 @@ nav {
 
 .nav-button {
     text-decoration: none;
-    padding: 10px;
-    margin-right: 10px;
-    color: black;
+    padding: 5px 10px;
+    color: #050505;
     border-radius: 5px;
     display: flex;
     /* ensures img doesnt become column*/
@@ -103,6 +103,10 @@ nav {
 #get-free {
     background-color: #050505;
     color: white;
+}
+
+#get-free:hover {
+    background-color: #353535;
 }
 
 /*content*/
@@ -325,6 +329,11 @@ footer {
         display: none;
     }
 
+    nav {
+        border: none;
+        position: static;
+    }
+
     .hero {
         flex-direction: column-reverse;
         text-align: center;
@@ -367,9 +376,9 @@ footer {
         width: 25px;
         height: auto;
         display: block;
-        padding: 10px;
+        padding: 5px 10px;
         margin-right: 10px;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     .info-text-container {

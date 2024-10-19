@@ -4,11 +4,8 @@
 }
 
 * {
-
     font-family: Inter;
 }
-
-
 
 body {
     margin: 0;
@@ -19,9 +16,8 @@ body {
     background-color: #fff;
 }
 
-h1,
-h2,
-h3 {
+/*All headers same size and weight*/
+h1, h2, h3 {
     font-weight: 650;
 }
 
@@ -34,7 +30,7 @@ h3 {
 }
 
 
-/* divider*/
+/* Dividers */
 .divider-horizontal {
     background-color: #e5e5e5;
     width: 100%;
@@ -53,12 +49,11 @@ h3 {
     /* fixed width being under 1 */
 }
 
-/* NAV */
+/* Nav */
 #brand {
     width: 100px;
     height: auto;
     display: block;
-
 }
 
 #hamburger {
@@ -70,16 +65,15 @@ h3 {
 }
 
 nav {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 10px;
     border-bottom: 1px solid #e5e5e5;
     font-size: 15px;
     font-weight: 450;
     background-color: #fff;
-
     /* makes nav stick to top */
     top: 0;
     position: sticky;

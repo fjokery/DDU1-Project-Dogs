@@ -19,7 +19,9 @@ body {
     background-color: #fff;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 650;
 }
 
@@ -216,6 +218,7 @@ nav {
 
 .person-container {
     display: flex;
+    gap: 10px;
 }
 
 .person-container img {
@@ -231,8 +234,14 @@ nav {
 
 .person-text-column p {
     margin: 0;
+    font-size: 15;
+    font-weight: 550;
 }
 
+.person-job-text {
+    color: #7f7f7f;
+    font-size: 12px;
+}
 
 .features-container {
     width: 600px;

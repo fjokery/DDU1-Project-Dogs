@@ -243,10 +243,47 @@ nav {
     font-size: 12px;
 }
 
+/* class below appears 2 times (with a button under text)*/
+
+.get-barky-free-text-attributes {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.get-barky-free-text-attributes h2 {
+    margin: 0;
+}
+
+.get-barky-free-text-attributes p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #7f7f7f;
+}
+
+/* Solutions part*/
+.barky-solutions-text h2 {
+    margin: 0;
+}
+
+.barky-solutions-text p {
+    margin-bottom: 40px;
+    color: #7f7f7f;
+
+}
+
+.divided-rows p {
+    color: #7f7f7f;
+}
+
+/* Features part*/
+
 .features-container {
     width: 600px;
     max-width: 100%;
-    padding: 0px 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
     box-sizing: border-box;
     background-color: #f4f4f4;
 }
@@ -278,6 +315,10 @@ nav {
     width: 100%;
 }
 
+.divided-rows a {
+    color: #050505;
+}
+
 .align-items-container h1 {
     margin: 0;
 }
@@ -296,10 +337,27 @@ nav {
 .badges-text {
     width: 100%;
     font-size: 18px;
+    line-height: 1.5;
+    color: #050505;
+}
+
+.badges-text a {
+    color: #050505
 }
 
 .percentage {
     width: 100%;
+}
+
+.percentage h1 {
+    font-size: 53px;
+    color: #666666;
+    margin: 0;
+}
+
+.percentage p {
+    font-size: 18;
+    margin: 0;
 }
 
 .try-barky {
@@ -352,6 +410,16 @@ footer {
 .footer-link {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.footer-link p {
+    margin-bottom: 0;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #666666;
 }
 
 /* fix later

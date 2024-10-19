@@ -10,7 +10,7 @@
   <p align="center">
     A project for the course "Digital design och utveckling 1".
     <br />
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>Explore something »</strong></a>
+    <a href="https://www.notion.so/teams"><strong>Original website »</strong></a>
     <br />
     <br />
     <a>Dogs</a>
@@ -25,9 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## 🐶 About The Project
 
-This project exsists to learn basic html and css. (no javascript)
+This project exsists to learn basic html and css. (no javascript).. trying to copy the famous `notion` website.
 
-Requirments:
+Requirments (in swedish):
 * All CSS-kod ska placeras i en egen fil och ni fårinte använda er av mer än 1000 rader CSS-kod*.
 Kommentarer räknas inte in i antal rader. 
 * Ni måste använda er av våra bilder och dessa får inte redigeras, eventuella “redigeringar” ska
@@ -39,9 +39,9 @@ som ska ha “1200px”.
 <br><br>
 <em> and more... </em>
 
-The result is a complete "fake company" website.
+The result is a complete "fake company" website that looks like the notion teams site.
 
-Open the project in `Visual studio` to see the result. 🦴
+Open the ` index.html` file to see the result. 🦴
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

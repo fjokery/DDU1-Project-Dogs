@@ -1,1 +1,0 @@
-Github link = https://github.com/fjokery/DDU1-Project-Dogs

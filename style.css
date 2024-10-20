@@ -111,6 +111,7 @@ nav {
     font-weight: 450;
 }
 
+/* Black button that appears more than once */
 .get-free {
     background-color: #050505;
     color: white;
@@ -133,6 +134,7 @@ nav {
 
 }
 
+/* Hero (first content box) */
 .hero {
     display: flex;
     gap: 20px;
@@ -173,6 +175,7 @@ nav {
     height: 24px;
 }
 
+/* Everything is built in column containers */
 .column-container {
     display: flex;
     margin-top: 80px;
@@ -180,6 +183,7 @@ nav {
     align-items: center;
 }
 
+/* Info text section (appears 3 times) */
 .info-text-container {
     width: 50%;
     align-self: flex-start;
@@ -299,6 +303,7 @@ nav {
     color: #050505;
 }
 
+/* Divided rows (appears 2 times) */
 .divided-rows {
     display: flex;
     gap: 40px;
@@ -313,6 +318,8 @@ nav {
 .align-items-container h1 {
     margin: 0;
 }
+
+/* Badges G2 ratings part */
 
 .badges {
     display: flex;
@@ -335,6 +342,7 @@ nav {
     color: #050505
 }
 
+/* Precentage part */
 .percentage {
     width: 100%;
 }
@@ -354,6 +362,7 @@ nav {
     margin: 60px 0px;
 }
 
+/* Footer section */
 footer {
     border-top: 1px solid #e5e5e5;
     width: 100%;
@@ -414,6 +423,7 @@ footer {
     text-decoration: underline;
 }
 
+/* Mobile version */
 @media (max-width: 601px) {
 
     /*nav*/

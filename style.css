@@ -52,8 +52,6 @@ h3 {
 /* Nav */
 #brand {
     width: 100px;
-    height: auto;
-    display: block;
 }
 
 #hamburger {
@@ -67,8 +65,6 @@ h3 {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
     padding: 10px;
     border-bottom: 1px solid #e5e5e5;
     font-size: 15px;
@@ -84,9 +80,8 @@ nav {
     padding: 5px 10px;
     color: #050505;
     border-radius: 5px;
-    display: flex;
     /* ensures img doesnt become column*/
-    text-align: center;
+    display: flex;
 }
 
 .nav-caret {
@@ -106,6 +101,7 @@ nav {
 
 #nav-divider {
     height: 20px;
+    /*stretches out - align: center removes height*/
 }
 
 #nav-get-free {
@@ -144,7 +140,6 @@ nav {
 
 .hero img {
     width: 100%;
-    object-fit: contain;
 }
 
 .hero-info {
@@ -202,8 +197,7 @@ nav {
 
 .preview-img {
     width: 100%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .center-text {
@@ -217,7 +211,6 @@ nav {
 }
 
 .person-container img {
-    width: 50px;
     height: 50px;
 }
 
@@ -229,7 +222,6 @@ nav {
 
 .person-text-column p {
     margin: 0;
-    font-size: 15;
     font-weight: 550;
 }
 
@@ -308,7 +300,6 @@ nav {
 
 .divided-rows {
     display: flex;
-    justify-content: center;
     gap: 40px;
     text-align: center;
     width: 100%;
@@ -330,7 +321,6 @@ nav {
 
 .badges img {
     width: 100%;
-    object-fit: contain;
 }
 
 .badges-text {
@@ -373,11 +363,9 @@ footer {
 }
 
 .footer-content {
-
-    width: 1200px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
-    justify-content: center;
     gap: 40px;
     background-color: #ffffff;
 }

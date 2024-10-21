@@ -143,6 +143,9 @@ nav {
 
 .hero img {
     width: 100%;
+    /*fix img proportions in different browsers*/
+    max-width: 500px; 
+    height: auto;
 }
 
 .hero-info {
@@ -329,6 +332,9 @@ nav {
 
 .badges img {
     width: 100%;
+    /*fix img proportions in different browsers*/
+    max-width: 500px; 
+    height: auto;
 }
 
 .badges-text {
